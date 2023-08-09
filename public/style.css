@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Ubuntu&display=swap');
+*{
+    font-family: 'Lumanosimo', cursive;
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+.post-card{
+    border: 4px solid black;
+    margin: 0.5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 85%;
+    min-height: 10rem;
+    margin: auto;
+    margin-top: 1.6rem;
+    margin-bottom: 2rem;
+    word-wrap: break-word;
+    box-shadow: 5px 5px 5px rgb(23, 23, 36);
+}
+body{
+    background-color: rgb(43, 40, 40);
+    color: white;
+}
+label{
+    font-size: 1.4rem;
+}
+.myLabels{
+    float: left;
+}
+.bi, .bi-pencil{
+    margin-left: 1rem;
+     font-size: 1.3rem;
+}
+/* .bi{
+   
+} */
+i{
+    cursor: pointer;
+}
+button{
+    /* margin-top: 0.4rem; */
+    height: 2.1rem;
+    border-radius: 0.4rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+    width: 6rem;
+    /* padding: 0.8rem; */
+    cursor: pointer;
+    margin-left: 1rem;
+    background-color: rgb(54, 44, 44);
+    color: white;
+}
+.postTitleDiv{
+    font-weight: bold;
+    font-size: 1.8rem;
+    display: inline;
+    word-wrap: break-word;
+}
+.postTextDiv{
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+input{
+    height: 2.1rem;
+    border-radius: 0.4rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.titleAndButtonsContainer{
+    display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+form{
+    width: 85%;
+
+    margin: 0.5rem;
+    padding: 0.4rem;
+    margin: auto;
+}
+.swal2-confirm.swal2-styled{
+   display: flex !important;
+justify-content: center;
+align-items: center; 
+}
+
+.fontIcons{
+    display: inline;
+    float: right;
+}
+.completeContainer{
+    width: 100vw;
+}
+#result{
+    margin:auto;
+    width: 85%;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:420px) {
+    input{
+        width: 11rem;
+    }
+}
+@media screen and (min-width:700px) {
+    form, .post-card{
+        width: 60%;
+    
+    }
+}
+@media screen and (min-width:700px)  {
+    #result{
+        width: 60%;
+    
+    }
+}
+@media screen and (max-width:360px) {
+    input{
+        width :10rem;
+    }
+    button{
+        width: 4rem;
+    }
+}
+@media screen and (max-width:440px) {
+    #updatedTitle,#updatedText{
+        width: 14rem;
+    }
+}
